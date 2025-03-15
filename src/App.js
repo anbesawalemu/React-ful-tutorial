@@ -23,7 +23,15 @@ import Form from "./components/Form";
 import Lifecycle from "./components/Lifecycle";
 import Fragmentofreact from "./components/Fragmentofreact";
 import Tables from "./components/Tables";
-import Refsdemo from "./components/Refsdemo";
+// import Refsdemo from "./components/Refsdemo";
+import Usestate from "./Hooks-tutorial/Usestate";
+import Usesta from "./Hooks-tutorial/Buttonusestate";
+import Buttonusestate from "./Hooks-tutorial/Buttonusestate";
+import Hooksname from "./Hooks-tutorial/Hooksname";
+import Hooksitem from "./Hooks-tutorial/Hooksitem";
+import Addnumber from "./Hooks-tutorial/Addnumber";
+import Useeffect from "./Hooks-tutorial/Useeffect";
+import Hooksmose from "./Hooks-tutorial/Hooksmose";
 
 function App() {
   return (
@@ -54,8 +62,15 @@ function App() {
      {/* <Lifecycle></Lifecycle> */}
      {/* <Fragmentofreact></Fragmentofreact>
      <Tables></Tables> */}
-     <Refsdemo></Refsdemo>
-
+     {/* <Refsdemo></Refsdemo> */}
+     {/* <Usestate></Usestate> */}
+     {/* <Usesta></Usesta> */}
+     {/* <Buttonusestate></Buttonusestate> */}
+     {/* <Hooksname></Hooksname> */}
+     {/* <Hooksitem></Hooksitem> */}
+         {/* <Addnumber></Addnumber> */}
+         {/* <Useeffect></Useeffect> */}
+         <Hooksmose></Hooksmose>
     </div>
   );
 }
