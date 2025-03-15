@@ -20,6 +20,10 @@ import Inline from "./components/Inline";
 import './appstyle.css'
 import Styles from './appstyle.module.css'
 import Form from "./components/Form";
+import Lifecycle from "./components/Lifecycle";
+import Fragmentofreact from "./components/Fragmentofreact";
+import Tables from "./components/Tables";
+import Refsdemo from "./components/Refsdemo";
 
 function App() {
   return (
@@ -46,7 +50,11 @@ function App() {
      <Namelist></Namelist> */}
      {/* <Stylesheet></Stylesheet> */}
      {/* <Inline></Inline> */}
-     <Form></Form>
+     {/* <Form></Form> */}
+     {/* <Lifecycle></Lifecycle> */}
+     {/* <Fragmentofreact></Fragmentofreact>
+     <Tables></Tables> */}
+     <Refsdemo></Refsdemo>
 
     </div>
   );
